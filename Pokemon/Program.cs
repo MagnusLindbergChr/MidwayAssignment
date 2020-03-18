@@ -10,6 +10,23 @@ namespace Pokemon
     {
         static void Main(string[] args)
         {
+            List<Move> CharmanderMoves = new List<Move>()
+            {
+                new Move("Ember"),
+                new Move("Fire Blast")
+            };
+            List<Move> SquirtleMoves = new List<Move>()
+            {
+                new Move("Bubble"),
+                new Move("Bite")
+            };
+            List<Move> BulbasaurMoves = new List<Move>()
+            {
+                new Move("Cut"),
+                new Move("Mega Drain"),
+                new Move("Razor Leaf")
+            };
+
             List<Pokemon> roster = new List<Pokemon>();
 
             // INITIALIZE YOUR THREE POKEMONS HERE
