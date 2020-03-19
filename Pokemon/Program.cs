@@ -31,6 +31,13 @@ namespace Pokemon
 
             // INITIALIZE YOUR THREE POKEMONS HERE
 
+            Pokemon Charmander = new Pokemon("Charmander", 2, 52, 43, 39, Elements.Fire, CharmanderMoves);
+            Pokemon Squirtle = new Pokemon("Squirtle", 2, 48, 65, 44, Elements.Water, SquirtleMoves);
+            Pokemon Bulbasaur = new Pokemon("Bulbasaur", 3, 49, 49, 45, Elements.Grass, BulbasaurMoves);
+            roster.Add(Charmander);
+            roster.Add(Squirtle);
+            roster.Add(Bulbasaur);
+
             Console.WriteLine("Welcome to the world of Pokemon!\nThe available commands are list/fight/heal/quit");
 
             while (true)
