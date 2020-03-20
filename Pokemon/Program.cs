@@ -47,6 +47,10 @@ namespace Pokemon
                 {
                     case "list":
                         // PRINT THE POKEMONS IN THE ROSTER HERE
+                        for(int i = 0; i < roster.Count; i++)
+                        {
+                            Console.WriteLine(roster[i].Name);
+                        }
                         break;
 
                     case "fight":
